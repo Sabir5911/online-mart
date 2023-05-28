@@ -1,3 +1,4 @@
+
 import React from 'react'
 import Wrapper from '../shared/Wrapper'
 import Image from 'next/image'
@@ -6,7 +7,7 @@ export default function Fifth() {
 
 <div className='flex  justify-center ml-[500px] mt-32 '>
 
-<h1 className='text-4xl font-bold max-w-lg -mb-12 '>Unique and Authentic Vintage Designer <br /> Jewellery</h1>
+<h1 className='text-4xl font-bold max-w-lg -mb-20 '>Unique and Authentic Vintage Designer <br /> Jewellery</h1>
 
 </div>
 <div className='bg-[#FBFCFF] '> 
@@ -14,35 +15,36 @@ export default function Fifth() {
 <Wrapper >
 {/* // first box */}
 
-<div className='grid grid-cols-2 place-items-center    mt-5 h-96'>
+<div className='grid grid-cols-2 place-items-center     h-96 pt-12 '>
 {/* Main box */}
 
-<div className='flex justify-around  gap-x-16 '>
+<div className='flex justify-center relative items-center gap-x-32 '>
+<span className='  absolute text-[85px]  font-bold  opacity-10 text-gray-500 z-10 -mb-6'>Different from others</span>
 
-<div className='flex flex-col gap-14'>
+<div className='flex flex-col gap-y-16'>
     <div>
     <h1 className='text-lg font-bold'>Using Good Quality <br /> Materials</h1>
-<p className='text-sm mt-2'>Lorem ipsum dolor sit amt <br/> consectetur adipiscing elit.</p>
+<p className='text-base mt-3 '>Lorem ipsum dolor sit <br/>amt  consectetur <br/>adipiscing elit.</p>
 
     </div>
 <div>
-<h1 className='text-lg font-bold'>Modern Fashion Design</h1>
-<p className='text-sm mt-2'>Lorem ipsum dolor sit amt <br /> consectetur adipiscing elit.</p>
+<h1 className='text-lg font-bold'>Modern Fashion <br/>Design</h1>
+<p className='text-base mt-2'>Lorem ipsum dolor sit <br />  amt consectetur <br /> adipiscing elit.</p>
 </div>
 
 
 </div>
 
 {/* second */}
-<div className='flex flex-col gap-14'>
+<div className='flex flex-col gap-y-16'>
     <div>
     <h1 className='text-lg font-bold'>100% Handmade <br /> Products</h1>
-<p className='text-sm mt-2'>Lorem ipsum dolor sit amt <br/> consectetur adipiscing elit.</p>
+<p className='text-base mt-2'>Lorem ipsum dolor sit <br/> amt  consectetur<br/> adipiscing elit.</p>
 
     </div>
 <div>
-<h1 className='text-lg font-bold'>Discount for Bulk Orders</h1>
-<p className='text-sm mt-2'>Lorem ipsum dolor sit amt <br/> consectetur adipiscing elit.</p>
+<h1 className='text-lg font-bold'>Discount for Bulk <br/>Orders</h1>
+<p className='text-base mt-2'>Lorem ipsum dolor sit <br/> amt  consectetur <br/> adipiscing elit.</p>
 </div>
 
 
@@ -50,7 +52,7 @@ export default function Fifth() {
 
     </div>
 {/* secondbox */}
-    <div className=' flex justify-center items-center gap-x-12'>
+    <div className=' flex justify-center items-center gap-x-12 mt-5 '>
     <Image src={'/assets/girl5.png'} alt='12' width={250} height={250} />
     <div >
         <p className='text-sm text-slate-700 tracking-widest    font-normal max-w-2xl'>
