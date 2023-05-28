@@ -12,7 +12,7 @@ export default function Header() {
 
       <main className='mt-12'>
 
-        <div className='flex justify-between items-center '>
+        <div className='flex justify-evenly items-center '>
           <Image src={logo} alt='image' width={150} height={150} />
           <ul className='flex justify-center items-center text-lg gap-x-12 font-medium'>
             <li>Female</li>
@@ -29,9 +29,10 @@ export default function Header() {
 
 
           </div>
-          <div>
-            <Image src={shop} alt='image' width={35} height={35} className="hover:scale-105 duration-300"/>
+          <div >
+          
 
+    <Image src={shop} alt='image' width={35} height={35} className="hover:scale-105 duration-300  " />  
           </div>
         </div>
 

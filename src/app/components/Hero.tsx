@@ -17,23 +17,21 @@ export default function Hero() {
 
       <main className='mt-44'>
 
-        <div className='grid grid-cols-2  justify-center items-center'>
-          <div className='flex flex-col '>
+        <div className='flex justify-around items-center'>
+          <div className='flex flex-col justify-center  '>
             <div>
               <Button Text='Sale 70%' />
             </div>
             <div className='mt-8  max-w-lg'>
-              <h1 className='text-7xl font-bold mt-3 '>
+              <h1 className='text-6xl font-bold mt-3 '>
                 An Industrial  Take on streetwear
               </h1>
-            </div>
-
-
-            <div className='mt-5  text-lg max-w-xs'>
+              <div className='mt-5  text-lg max-w-xs'>
               <text >
                 Anyone can beat you but no one can beat your outfit as long as you wear Dine outfits.
               </text>
             </div>
+                      
             <div className='mt-12 '>
 
             <button className='flex justify-center items-center bg-slate-900 border text-white py-4 px-5 rounded-sm hover:shadow-xl font-bold  text-lg hover:scale-105 duration-300' >
@@ -43,6 +41,10 @@ export default function Hero() {
     </button>
 
             </div>
+            </div>
+
+
+
 
             <div className='flex  flex-wrap gap-x-8 mt-6 '>
               <Image src={s} alt='image' />
@@ -55,7 +57,7 @@ export default function Hero() {
         
           <div >
 
-  <Image src={girl} alt='image' />
+  <Image src={girl} alt='image' width={500} height={500} />
 </div>
 
         </div>
