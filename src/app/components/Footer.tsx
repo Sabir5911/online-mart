@@ -7,7 +7,7 @@ export default function Footer() {
 <div className= 'flex justify-around mt-24 justify-center'>
     {/* // first div */}
 <div className='flex flex-col  gap-4 '>
-    <Image src={'/assets/logo.jpg'} alt='logo'width={159}height={159} />
+    <Image src={'/assets/Logo.jpg'} alt='logo'width={159}height={159} />
 
 <p className='max-w-[280px] text-base text-slate-600 '>
 Small, artisan label that offers a thoughtfully curated collection of high quality everyday essentials made.
