@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import Third from './components/Third'
 import Fourth from './components/Fourth'
 import Fifth from './components/Fifth'
+import Sixth from './components/Sixth'
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
      <Third />
      <Fourth />
      <Fifth />
-     
+     <Sixth />
     </main>
   )
 }
