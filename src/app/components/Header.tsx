@@ -26,7 +26,7 @@ export default function Header() {
             <input type="email" name="email" className=" outline-0	 " placeholder="What are you looking for" />
 
 
-
+{/* ?? */}
 
           </div>
           <div >
