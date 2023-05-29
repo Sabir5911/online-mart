@@ -4,6 +4,7 @@ import Third from './components/Third'
 import Fourth from './components/Fourth'
 import Fifth from './components/Fifth'
 import Sixth from './components/Sixth'
+import Footer from './components/Footer'
 
 export default function Home() {
   return (
@@ -13,6 +14,8 @@ export default function Home() {
      <Fourth />
      <Fifth />
      <Sixth />
+     <Footer />
+
     </main>
   )
 }
