@@ -7,7 +7,7 @@ export default function Fifth() {
 
 <div className='flex  justify-center ml-[500px] mt-32 '>
 
-<h1 className='text-4xl font-bold max-w-lg -mb-20 '>Unique and Authentic Vintage Designer <br /> Jewellery</h1>
+<h1 className='text-5xl font-bold max-w-lg -mb-12 '>Unique and Authentic Vintage Designer <br /> Jewellery</h1>
 
 </div>
 <div className='bg-[#FBFCFF] '> 
@@ -15,13 +15,13 @@ export default function Fifth() {
 <Wrapper >
 {/* // first box */}
 
-<div className='grid grid-cols-2 place-items-center     h-96 pt-12 '>
+<div className='grid grid-cols-2 place-items-center     h-[500px] pt-12 '>
 {/* Main box */}
 
-<div className='flex justify-center relative items-center gap-x-32 '>
+<div className='flex justify-center relative items-center gap-x-28 '>
 <span className='  absolute text-[85px]  font-bold  opacity-10 text-gray-500 z-10 -mb-6'>Different from others</span>
 
-<div className='flex flex-col gap-y-16'>
+<div className='flex flex-col gap-y-10'>
     <div>
     <h1 className='text-lg font-bold'>Using Good Quality <br /> Materials</h1>
 <p className='text-base mt-3 '>Lorem ipsum dolor sit <br/>amt  consectetur <br/>adipiscing elit.</p>
@@ -36,7 +36,7 @@ export default function Fifth() {
 </div>
 
 {/* second */}
-<div className='flex flex-col gap-y-16'>
+<div className='flex flex-col gap-y-10 '>
     <div>
     <h1 className='text-lg font-bold'>100% Handmade <br /> Products</h1>
 <p className='text-base mt-2'>Lorem ipsum dolor sit <br/> amt  consectetur<br/> adipiscing elit.</p>
@@ -52,8 +52,8 @@ export default function Fifth() {
 
     </div>
 {/* secondbox */}
-    <div className=' flex justify-center items-center gap-x-12 mt-5 '>
-    <Image src={'/assets/girl5.png'} alt='12' width={250} height={250} />
+    <div className=' flex justify-center items-center gap-x-12  '>
+    <Image src={'/assets/girl5.png'} alt='12' width={270} height={270} />
     <div >
         <p className='text-sm text-slate-700 tracking-widest    font-normal max-w-2xl'>
         This piece is ethically crafted in our small family-owned workshop in Peru with unmatched attention to detail and care.
