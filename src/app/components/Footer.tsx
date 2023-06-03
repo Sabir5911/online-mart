@@ -57,8 +57,6 @@ Small, artisan label that offers a thoughtfully curated collection of high quali
     </h2>
     <h3>
     Code by  5911 on github
-
-
     </h3>
   </div>
   
