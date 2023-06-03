@@ -5,17 +5,17 @@ export default function Sixth() {
   return <>       
   <Wrapper>
 
-<div className='flex flex-col justify-center items-center gap-y-6 mt-28 '>
   
-<div className='absolute text-gray-500 text-[80px] font-bold z-10 opacity-10 '>Newsletter</div>
+<div className='flex flex-col justify-center items-center   mt-40  relative  '>
+<span className='absolute text-gray-500 text-[140px] font-bold  opacity-10 	'>Newsletter</span>
 
-    <h1 className='text-3xl font-bold'>Subscribe Our Newsletter</h1>
-    <span className='span-sm '>Get the latest information and promo offers directly</span>
-    <div className='flex justify-center items-center gap-4 mt-7' >
-        <input placeholder='input email adress ' className='border text-base w-64 h-8 pl-3 rounded-none'></input>
-        <button className='bg-black text-white font-semibold px-3 py-1.5 text-sm'>Get Started</button>
+<h1 className='text-4xl font-bold mb-6'>Subscribe Our Newsletter</h1>
+    <div className='text-base py-6 ' >Get the latest information and promo offers directly</div>
+  
+    <div className='flex  items-center gap-4 mt-40 absolute' >
+        <input placeholder='input email adress ' className='border text-base w-72 h-12 pl-3 rounded-none'></input>
+        <button className='bg-black text-white font-semibold px-3 py-3 rounded-sm text-sm'>Get Started</button>
     </div>
-
 </div>     
 
   </Wrapper>
